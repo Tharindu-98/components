@@ -15,9 +15,9 @@ component is a normal StatelessWidget, But it additonally contain **toJson** and
 
 ## Getting started
 ```dart
-    components:
-          git:
-            url: https://github.com/d4gits/components.git
+components:
+      git:
+        url: https://github.com/d4gits/components.git
 ```
 ```dart  
 import  'package:components/components.dart';
