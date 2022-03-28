@@ -11,29 +11,34 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Common component widget library.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+ - Question component
+ - Answer component
+ - Sentence component
+ - List component
+ - Image component
+ - Table compoenent (Basic)
 
 ## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+    components:
+          git:
+            url: https://github.com/d4gits/components.git
+```
+```dart  
+import  'package:components/components.dart';
+ ```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+Answer(1, "Hello World")
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+TO Add....
+
